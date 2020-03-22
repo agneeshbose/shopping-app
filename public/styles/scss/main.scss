@@ -1,0 +1,26 @@
+* {
+    font-family: Montserrat, Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #3e244d9c;
+}
+
+body {
+    width: 1060px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    nav {
+        background-color: rgba(255, 255, 255, 0.534);
+        padding-top: 1rem;
+    }
+}
+
+main {
+    p {
+        background-color: white;
+        text-align: center;
+        padding: 1rem 0;
+    }
+}

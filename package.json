@@ -5,15 +5,18 @@
     "main": "index.js",
     "scripts": {
         "start": "nodemon index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass --watch public/styles/scss/ -o public/styles/css"
     },
     "author": "Agneesh Bose",
     "license": "ISC",
     "dependencies": {
+        "body-parser": "^1.19.0",
         "ejs": "^3.0.1",
         "express": "^4.17.1"
     },
     "devDependencies": {
+        "node-sass": "^4.13.1",
         "nodemon": "^2.0.2"
     }
 }
